@@ -1,0 +1,12 @@
+.profile{
+    display:flex;
+    align-items:center;
+    gap:1vmax;
+}
+.userdetail{
+    display:flex;
+    flex-direction:column;
+}
+.userdetail>p{
+    margin-top:-1.5vmax
+}

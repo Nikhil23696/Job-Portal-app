@@ -1,0 +1,35 @@
+.right{
+    max-width: 75vmax;
+    flex-grow:1;
+    background-color:re;
+    display:flex;
+    flex-direction:column;
+}
+.job{
+    border:1px solid rgb(211, 211, 211);
+    width:20vw;
+    height:35vh;
+    margin:auto;
+    padding:2vmax;
+    box-shadow: 5px 5px 5px 5px rgb(247, 246, 246)
+}
+.myjob{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1vmax
+
+}
+.detail{
+    display:flex;
+    gap:1vmax;
+    margin-top:-0.5vmax
+}
+@media screen and (max-width:700px){
+    .position{
+        display:non
+    }
+    .job{
+        width:80vw;
+        padding:3.5vmax
+    }
+}

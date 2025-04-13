@@ -1,0 +1,88 @@
+.create{
+    max-width:100%;
+    width:70vw; 
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:2vmax
+}
+.creat1,.jobb{
+display:grid;
+grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+border:1px solid rgb(197, 195, 195);
+padding:1vmax;
+}
+.button{
+    padding:0.5vmax;
+    border:1px solid rgb(197, 195, 195);
+    background-color: rgb(170, 218, 238);
+    outline:none;
+    padding-inline:1vmax;
+    margin-left: 45vmax;
+    margin-top:2vmax;
+    transition:all 0.5s
+}
+.button:hover{
+    cursor:pointer;
+    background-color:rgb(124, 177, 200);
+}
+.neww{
+    max-width:100%;
+    width:70vw;
+    align-items:center;
+    display:flex;
+    justify-content:center
+}
+.jobcreate{
+    display:flex;
+    width:25vmax;   
+    gap:1vmax ;
+    height:40vh;
+}
+.left{
+    display:flex;
+    flex-direction:column;
+    gap:1vmax
+}
+.left>input{
+    padding:0.5vmax;
+    outline:none;
+    border:1px solid rgb(165, 164, 164)
+}
+.btn{
+    padding:0.5vmax;
+    border:1px solid rgb(197, 195, 195);
+    background-color: rgb(170, 218, 238);
+    outline:none;
+    padding-inline:1vmax;
+    transition:all 0.5s;
+    position:fixed;
+    top:32vmax;
+    width:25vw
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:rgb(124, 177, 200);
+}
+.h2{
+    position:fixed;
+    top:11vmax
+}
+.jobicon{
+    display: flex;
+    gap:1vmax;
+
+}
+.mysvg{
+    margin-top:1vmax;
+    transition:all 0.4s
+}
+.mysvg:hover{
+    cursor:pointer;
+    color: rgb(170, 218, 238);
+}
+@media screen and (max-width:700px){
+    .date{
+        display:none
+    }
+}

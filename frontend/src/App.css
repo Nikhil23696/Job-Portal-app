@@ -1,0 +1,11 @@
+body{
+    margin:0
+}
+.link{
+    text-decoration:none;
+    color:black
+}
+.mode {
+    color: whitesmoke;
+    background-color: rgb(18, 18, 18);
+  }

@@ -1,0 +1,23 @@
+.applied{
+    max-width:100%;
+    width:90vw;
+    margin:auto;
+    background-color:Re;
+    margin-top:3vmax
+} 
+.grid{
+    display:grid;
+    grid-template-columns:0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+    border:1px solid rgb(233, 231, 231);
+    padding:1vmax
+}
+.pp{
+    display:flex;
+    align-items:center;
+    gap:1vmax
+}
+@media screen and (max-width:700px){
+    .img{
+        display:none
+    }
+}

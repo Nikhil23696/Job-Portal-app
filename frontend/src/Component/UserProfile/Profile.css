@@ -1,0 +1,89 @@
+.prof{
+    max-width:100%;
+    width:100vw;
+    display:flex;
+    flex-direction:column
+}
+.prof1{
+    width:60vw;
+    height:40vh;
+    margin:auto;
+    background-color:re;
+    padding:2vmax;
+    border:1px solid rgb(205, 204, 204);
+    margin-top:2vmax
+}
+.prof3{
+    display:flex;
+    align-items:center;
+    gap:1vmax;
+    
+}
+.userde>p{
+    margin-top:-1vmax
+}
+.edit{
+    margin-left: 45vmax;
+    
+}
+.edit:hover{
+    cursor:pointer;
+    color:blue
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+}
+.contact1{
+    display:flex;
+    align-items:center;
+    gap:1vmax
+}
+.skill{
+    display:flex;
+    gap:1vmax;
+    margin-top:-1.5vmax
+}
+.skill>p{
+    border:1px solid rgb(205, 204, 204);
+    padding:0.5vmax;
+    background-color:rgb(170, 218, 238);
+}
+.hh{
+    margin-top:-0.5vmax
+}
+.pres{
+    margin-top:-1vmax;
+    color:rgb(37, 136, 179);
+}
+.appliedjobs1{
+    margin-top:1vmax
+}
+@media screen and (max-width:700px){
+    .prof{
+        overflow:hidde
+    }
+    .prof1{
+        width:100vw;
+        padding:2vmax
+    }
+    .userde{
+        display:flex;
+        align-items:center;
+        gap:8vmax
+    }
+    .userde>p{
+        margin-top:1.3vmax;
+         font-size:2.5vmax
+    }
+    .userde>h3{
+        font-size:3vmax
+    }
+    .contact1{
+        margin-top: -2vmax;
+        margin-left:7vmax
+    }
+    .pres{
+        margin-top: -2vmax
+    }
+}

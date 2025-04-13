@@ -1,0 +1,86 @@
+.home{
+    max-width:100%;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    gap:3vmax;
+}
+.nav{
+    display:flex;
+    justify-content:space-around;
+    box-shadow:10px 10px 10px 10px rgb(244, 242, 242);
+    padding:1vmax;
+    /* position:sticky;
+    top:0 */
+}
+.user{
+    display:flex;
+    align-items:center;
+    gap:1vmax
+}
+.banner{
+    background-color:rgb(170, 218, 238);
+    height:30vh;
+    width:90vw;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:4vmax
+}
+.banner>h3{
+    margin-top:-1vmax
+}
+.inputfield>input{
+    outline:none;
+    border:none;
+    padding:1vmax;
+    width: 30vw
+}
+.inputfield >button{
+    outline:none;
+    border:none;
+    padding:1vmax;
+    background-color:blue;
+    font-weight:bold;
+    color:white;
+    font-size:0.79vmax
+}
+.company{
+    background-color:aliceblue;
+    height:10vh;
+    width:90vw;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+.homecontent{
+    width:90vw;
+    margin:auto;
+    display:flex;
+    gap:1.5vmax
+}
+@media screen and (max-width:700px){
+    .banner{
+        padding-top:0vmax;
+        width:102vw;
+        margin-right:0
+    }
+    .inputfield>input{
+        width:40vw;
+        padding:1.8vmax
+    }
+    .inputfield>button{
+        padding:2vmax;
+        font-size:2vmax
+    }
+    .home{
+        overflow:hidden
+    }
+    .nav{
+        display:flex;
+    justify-content:space-between;
+    }
+}

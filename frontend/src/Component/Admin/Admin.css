@@ -1,0 +1,18 @@
+.sidebar{
+    max-width:25%;
+    padding:2vmax;
+    display:flex;
+    flex-direction:column;
+    height: 79vh;
+    background-color:tomato;
+    position:sticky;
+    top:0
+}
+.admin{
+    display:flex;
+    width:100vw; 
+    max-width:100%;   
+}
+@media screen and (max-width:700px){
+   
+}
