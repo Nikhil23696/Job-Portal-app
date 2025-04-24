@@ -8,7 +8,7 @@ const useGetAllApplication = ()=>{
     useEffect(()=>{
         const fetchApplication = async()=>{
             try {
-               const res = await axios.get('http://localhost:8080/api/v1/application/all', {withCredentials: true});
+               const res = await axios.get('https://kaamkarlo.onrender.com/api/v1/application/all', {withCredentials: true});
                dispatch(getAllApplication(res.data. application)) 
             } catch (error) {
                 console.log(error)

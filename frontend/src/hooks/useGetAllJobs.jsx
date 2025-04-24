@@ -9,7 +9,7 @@ const useGetAllJobs = ()=>{
     useEffect(()=>{
         const fetchJobs = async()=>{
             try {
-               const res = await axios.get(`http://localhost:8080/api/v1/job/all/?keyword=${searchedQuery}`, {withCredentials: true});
+               const res = await axios.get(`https://kaamkarlo.onrender.com/api/v1/job/all/?keyword=${searchedQuery}`, {withCredentials: true});
                dispatch(getAllJobs(res.data.job)) 
             } catch (error) {
                 console.log(error)

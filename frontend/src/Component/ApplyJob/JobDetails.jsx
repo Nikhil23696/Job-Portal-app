@@ -18,7 +18,7 @@ const JobDetails = () => {
     const applyJobHandler = async(id)=>{
           setLoading(true);
           try {
-            const res = await axios.post(`http://localhost:8080/api/v1/application/apply/${id}`, {}, {withCredentials: true});
+            const res = await axios.post(`https://kaamkarlo.onrender.com/api/v1/application/apply/${id}`, {}, {withCredentials: true});
             console.log(res.data)
             if(res.data.success){
                 dispatch(getMyAppliedJobs(res.data.newApplication));

@@ -8,7 +8,7 @@ const useGetAppliedJob = ()=>{
     useEffect(()=>{
         const fetchMyJobs = async()=>{
             try {
-               const res = await axios.get('http://localhost:8080/api/v1/application/applied/job', {withCredentials: true});
+               const res = await axios.get('https://kaamkarlo.onrender.com/api/v1/application/applied/job', {withCredentials: true});
                dispatch(getMyAllAppliedJob(res.data.application)) 
             } catch (error) {
                 console.log(error)

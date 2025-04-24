@@ -14,7 +14,7 @@ const AllJobs = () => {
 
     const handleDeleteJob = async(id)=>{
      try {
-        const res = await axios.delete(`http://localhost:8080/api/v1/job/delete/${id}`, {withCredentials:true});
+        const res = await axios.delete(`https://kaamkarlo.onrender.com/api/v1/job/delete/${id}`, {withCredentials:true});
 
         dispatch(removeJob(id));
         toast.success(res.data.message)

@@ -9,7 +9,7 @@ const useGetAllJobs = (id)=>{
         const fetchJobDetails = async()=>{
             try {
                 console.log("hi")
-               const res = await axios.get(`http://localhost:8080/api/v1/job/${id}`, {withCredentials: true});
+               const res = await axios.get(`https://kaamkarlo.onrender.com/api/v1/job/${id}`, {withCredentials: true});
                console.log(res.data)
                dispatch(getJobDetails(res.data.job)) 
             } catch (error) {

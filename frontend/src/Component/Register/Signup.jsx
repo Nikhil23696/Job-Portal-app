@@ -37,7 +37,7 @@ const Signup = () => {
             if (avatar) myForm.append("avatar", avatar);
             if (resume) myForm.append("resume", resume);
 
-            const res = await axios.post('http://localhost:8080/api/v1/user/register', myForm, {
+            const res = await axios.post('https://kaamkarlo.onrender.com/api/v1/user/register', myForm, {
                 headers: { 'Content-Type': 'multipart/form-data' },
                 withCredentials: true
             });
