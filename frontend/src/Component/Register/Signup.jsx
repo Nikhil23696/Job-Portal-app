@@ -16,9 +16,9 @@ const Signup = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [role, setRole] = useState("user");
     const [bio, setBio] = useState("");
     const [skill, setSkill] = useState("");
-    const [role, setRole] = useState("user");
     const [phoneNumber, setPhoneNumber] = useState("");
     const [loading, setLoading] = useState(false)
 
@@ -46,9 +46,9 @@ const Signup = () => {
                 setName("");
                 setEmail("");
                 setPassword("");
+                setRole("user");
                 setBio("");
                 setSkill("");
-                setRole("user");
                 setPhoneNumber("");
                 setAvatar(false);
                 setResume(false);
